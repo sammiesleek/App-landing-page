@@ -1,0 +1,56 @@
+ .app-download{
+     background-image: url(images/bg.jpg);
+     background-size: cover;
+     background-position: center top;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-color:rgba(1, 27, 39, 0.7);
+     position:relative;
+     &::before{
+         content:'';
+         position:absolute;
+         left:0;
+         top:0;
+         width:1005;
+         height:100%;
+         z-index:-1;
+         background-color:$main-color;
+         opacity:0.8;
+
+    }
+    .container{
+        
+        .mk{
+            .or{
+                .section-tittle{
+                    h2{
+                        font-size:40px;
+                        color:#ffffff;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                        text-align: center;
+                        span{
+                            color:$main-color;
+                        }
+                    }
+                }
+            }
+        }
+        .me{
+            .my{
+                .download-item{
+                    background-color: $black1;
+                    padding:30px;
+                    text-align:center;
+                    border-radius:10px;
+                    i{
+                        font-size:30px;
+                        display:inline-block;
+                        color:$main-color;
+
+                    }
+                }
+            }
+         }
+    }
+ }

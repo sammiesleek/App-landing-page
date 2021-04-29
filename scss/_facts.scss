@@ -1,0 +1,86 @@
+.fun-facts{
+    background-color: $black1;
+    .container{
+        .row{
+            .mdd{
+                // .fun-fact-img{
+                    display:flex;
+                    .fun-fact-img{
+                        max-width:250px;
+                        width:100%;
+                        border-radius:32px;
+                        box-shadow:$shadow2;
+                        background:transparent;
+                        animation: bounce 3s ease infinite;
+                    }
+                // }
+            }
+            .mdc{
+                .section-tittle{
+                    margin-bottom:20px;
+                    h2{
+                        font-size:40px;
+                        color:$black3;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                        text-align:left;
+                        
+                        span{
+                            color:$main-color;
+                        }
+                    }
+                }
+                .fun-fact-text{
+                    p{
+                        font-size:16px;
+                        line-height: 25px;
+                        color:$black2;
+                        margin:0 0 15px;
+                        font-weight:300;
+
+                    }
+                    .row{
+                        .col-sm-6{
+                            .fun-fact-item{
+                                padding:40px 30px;
+                                box-shadow: $shadow2;
+                                margin-top: 30px;
+                                border-radius: 10px;
+                                text-align:center;
+
+                                h3{
+                                    font-size: 40px;
+                                    font-weight:700;
+                                    color:#ffffff;
+                                    margin:0 0 5px;  
+
+                                }
+                                span{
+                                    text-transform:uppercase;
+                                    font-size:1rem;
+                                    font-weight:300;
+                                    line-height:26px;
+                                    display:block;
+                                    margin:0;
+                                    color:#ffffff;
+                                }
+                            }
+                            .style1{
+                                background-color: $color1
+                            }
+                            .style2{
+                                background-color: $color2;
+                            }
+                            .style3{
+                                background-color: $color3;
+                            }
+                            .style4{
+                                background-color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
